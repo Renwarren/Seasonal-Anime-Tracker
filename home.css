@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #484D6D;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.content{
+    margin-bottom: 10vw;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 40px;
+    height: 100%;
+}
+
+.Bg-Image{
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/WallPaper.jpg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Sign{
+    font-weight: bold;
+    color: black;
+    background-color: aquamarine;
+    margin-bottom: 12px;
+    width: 100%;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    padding: 16px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+p{
+    color: black;
+    font-size: 16px;
+    margin: 0 0 24px;
+    line-height: 1.5;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+   body {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 14px;
+    }
+}
