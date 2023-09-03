@@ -4,78 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shorai</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
+
 </head>
 <body>
+    <div class="Bg-Image"></div>
 
-    <!-- NavBar -->
-    <nav>
-        <a class = "logo" href="#">
-            <img src="images/shorai.png" alt="shorai">
-        </a>
-        <div class= "menu">
-            <a href="#" class = "nav-icon">
-                <img src="images/home-icon.svg" alt="home-icon">
-                <span>HOME</span>
-            </a>
-            <a href="#" class = "nav-icon">
-                <img src="images/movie-icon.svg" alt="movie-icon">
-                <span>MOVIES</span>
-            </a>
-            <a href="#" class = "nav-icon">
-                <img src="images/search-icon.svg" alt="search-icon">
-                <span>SEARCH</span>
-            </a>
-        </div>
-    </nav>
+    <main>
 
-    <!-- Streamers components -->
-    <div class="container">
+        <!-- NavBar -->
+        <nav>
+            <div>
+                <a class = "logo" href="#">
+                    <img src="images/shorai.png" alt="shorai">
+                </a>
+            </div>
+            <div class= "menu">
+                <a href="#" class = "nav-icon">
+                    <img src="images/home-icon.svg" alt="home-icon">
+                    <span>HOME</span>
+                </a>
+                <a href="#" class = "nav-icon">
+                    <img src="images/movie-icon.svg" alt="movie-icon">
+                    <span>MOVIES</span>
+                </a>
+                <a href="#" class = "nav-icon">
+                    <img src="images/search-icon.svg" alt="search-icon">
+                    <span>SEARCH</span>
+                </a>
+            </div>
+        </nav>
+    
+    
+        <!-- Streamers components -->
+        <div class="container">
+            <div class="wrap">
+                <img src="images/crunchyroll.png" alt="Crunchyroll Logo">
+                <video autoplay loop playInline muted>
+                    <source src="videos/Crunchyroll.mp4" type="video/mp4"/>
+                </video>
+            </div>
+            <div class="wrap">
+                <img src="images/Funimation.svg" alt="">
+                <video autoplay loop playInline muted>
+                    <source src="videos/Funimation.mp4" type="video/mp4"/>
+                </video>
+            </div>
+            <div class="wrap">
+                <img src="images/hulu.svg" alt="">
+                <video autoplay loop playInline muted>
+                    <source src="videos/Hulu.mp4" type="video/mp4"/>
+                </video>
+            </div>
+            <div class="wrap">
+                <img src="images/Netflix.png" alt="">
+                <video autoplay loop playInline muted>
+                    <source src="videos/Netflix.mp4" type="video/mp4"/>
+                </video>
+            </div>
+            <div class="wrap">
+                <img src="images/Amazon.svg" alt="">
+                <video autoplay loop playInline muted>
+                    <source src="videos/Amazon.mp4" type="video/mp4"/>
+                </video>
+            </div>
+    
+        </div>
+        
+        <!-- Trending Section -->
+    
+        <div class = "trending-container">
+            <h4>Trending</h4>
+            <div class="trending-content">
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/42765/poster_image/large-5ce19551c1a6cf995b378205b9149b5c.jpeg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/42765/poster_image/large-5ce19551c1a6cf995b378205b9149b5c.jpeg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/42765/poster_image/large-5ce19551c1a6cf995b378205b9149b5c.jpeg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/42765/poster_image/large-5ce19551c1a6cf995b378205b9149b5c.jpeg" alt="">
+                </div>
+            </div>
+        </div>
 
-        <div class="wrap">
-            <img src="images/crunchyroll.png" alt="Crunchyroll Logo">
-            <video autoplay loop playInline muted>
-                <source src="videos/Crunchyroll.mp4" type="video/mp4"/>
-            </video>
+        <!-- Top Airing Anime -->
+        <div class = "trending-container">
+            <h4>Top Airing Anime</h4>
+            <div class="trending-content">
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/poster_images/41370/large.jpg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/poster_images/41370/large.jpg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/poster_images/41370/large.jpg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/poster_images/41370/large.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="wrap">
-            <img src="images/Funimation.svg" alt="">
-            <video autoplay loop playInline muted>
-                <source src="videos/Funimation.mp4" type="video/mp4"/>
-            </video>
-        </div>
-        <div class="wrap">
-            <img src="images/hulu.svg" alt="">
-            <video autoplay loop playInline muted>
-                <source src="videos/Hulu.mp4" type="video/mp4"/>
-            </video>
-        </div>
-        <div class="wrap">
-            <img src="images/Netflix.png" alt="">
-            <video autoplay loop playInline muted>
-                <source src="videos/Netflix.mp4" type="video/mp4"/>
-            </video>
-        </div>
-        <div class="wrap">
-            <img src="images/Amazon.svg" alt="">
-            <video autoplay loop playInline muted>
-                <source src="videos/Amazon.mp4" type="video/mp4"/>
-            </video>
-        </div>
-        <div class="Bg-Image"></div>
-    </div>
 
-    <!-- Play a trailer -->
-    <div class="recommended">
-        <h4>Recommended For You</h4>
-        <div class="video-container" onmouseenter="playVideo()" onmouseleave="pauseVideo()">
-            <iframe class="video-iframe" src="https://www.youtube.com/embed/CmTeYj2FmRc?autoplay=0&mute=1" frameborder="0" allowfullscreen muted></iframe>
+        <!-- Top Upcoming Anime -->
+        <div class = "trending-container">
+            <h4>Top Upcoming Anime</h4>
+            <div class="trending-content">
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/45857/poster_image/large-1ebb56f346edda6bcde9cdffa9b89316.jpeg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/45857/poster_image/large-1ebb56f346edda6bcde9cdffa9b89316.jpeg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/45857/poster_image/large-1ebb56f346edda6bcde9cdffa9b89316.jpeg" alt="">
+                </div>
+                <div class = "trending-wrap">1
+                    <img src="https://media.kitsu.io/anime/45857/poster_image/large-1ebb56f346edda6bcde9cdffa9b89316.jpeg" alt="">
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
+
+   
+
 
     <script src="script.js"></script>
 </body>

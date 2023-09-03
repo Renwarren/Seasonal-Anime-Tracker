@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Page</title>
     <link rel="stylesheet" href="detail_page.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
 </head>
 <body>
     <!-- NavBar -->
@@ -28,23 +32,40 @@
                 <span>SEARCH</span>
             </a>
         </div>
-        <div class = "title-bar">
-            <h4>Jujutsu Kaisen</h4>
-        </div>
     </nav>
+
+
     <div class="container">
 
         <div class="background">
             <img src="https://media.kitsu.io/anime/cover_images/42765/original.jpeg" alt="">
         </div>
+        <div class="image-title">
+            <img src="images/Jujutsu_Kaisen_logo.png" alt="">
+        </div>
+        <div class="content-meta">
+            <div class="controls">
+                    <div class="player">
+                        <img src="images/play-icon-black.png" alt="">
+                        <span>Play</span>
+                    </div>
+                    <div class="player trailer">
+                        <img src="images/play-icon-white.png" alt="">
+                        <span>Trailer</span>
+                    </div>
+            </div>
+            <div class="description">Description</div>
+        </div>
     </div>
     
     <!-- Play a trailer -->
     <!-- <div class="recommended">
+        <h4>Recommended For You</h4>
         <div class="video-container" onmouseenter="playVideo()" onmouseleave="pauseVideo()">
-            <iframe class="video-iframe" src="https://www.youtube.com/embed/8FCsBsJEoLg?autoplay=0&mute=1" frameborder="0" allowfullscreen muted></iframe>
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/CmTeYj2FmRc?autoplay=0&mute=1" frameborder="0" allowfullscreen muted></iframe>
         </div>
     </div> -->
+
 
     <script src="script.js"></script>
 </body>

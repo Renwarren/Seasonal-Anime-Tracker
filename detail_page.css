@@ -19,10 +19,6 @@ body{
     color: aliceblue;
 }
 
-/* h4{
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-} */
 
 a{
     color: #f9f9f9;
@@ -117,11 +113,6 @@ nav{
 
 }
 
-.title-bar{
-    color: white;
-    /* background-color: #f9f9f9; */
-}
-
 /* Container */
 .container{
     position: relative;
@@ -142,9 +133,80 @@ nav{
 .background img{
     width: 100vw;
     height: 100vh;
-
 }
 
+.image-title{
+    align-items: flex-end;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin: 0px auto;
+    height: 30vw;
+    min-height: 170px;
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+.image-title img{
+    max-width: 600px;
+    min-width: 200px;
+    width: 35vw;
+}
+
+.content-meta{
+    max-width: 874px;
+}
+
+.controls{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 24px 0px;
+    min-height: 56px;
+}
+
+.player{
+    font-size: 15px;
+    margin: 0px 22px 0px 0px;
+    padding: 0px 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #f9f9f9;
+    border: none;
+    color: rgb(0,0,0);
+}
+
+.player img{
+    width: 32px;
+}
+
+.player:hover{
+    background: rgb(198,198,198);
+}
+
+.player span{
+    font-size: 20px;
+}
+
+.trailer{
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(249,249,249);
+    color: #f9f9f9;
+}
+
+.description{
+    color: #f9f9f9;
+    line-height: 1.4;
+    padding: 16px 0px;
+    font-size: 20px;
+}
 
 
 
@@ -157,5 +219,29 @@ nav{
     
     .menu{
         display: none;
+    }
+
+    nav{
+        justify-content: space-evenly;
+    }
+
+    .image-title{
+        padding-bottom: 24px;
+        justify-content: center;
+    }
+
+    .player{
+        height: 45px;
+        padding: 0px 12px;
+        font-size: 12px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .player img{
+        width: 25px;
+    }
+
+    .description{
+        font-size: 12px;
     }
 }
