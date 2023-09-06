@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shorai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <script src="carousel.js" defer></script>
 
 </head>
 <body>
@@ -33,9 +39,30 @@
                 </a>
             </div>
         </nav>
+
+        <!-- Carousel -->
+        <section aria-label = "Trending Anime">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="https://media.kitsu.io/anime/poster_images/1/small.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                        <img src="https://media.kitsu.io/anime/poster_images/41370/large.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                        <img src="https://media.kitsu.io/anime/45857/poster_image/large-1ebb56f346edda6bcde9cdffa9b89316.jpeg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
     
     
+
         <!-- Streamers components -->
+
         <div class="container">
             <div class="wrap">
                 <img src="images/crunchyroll.png" alt="Crunchyroll Logo">
