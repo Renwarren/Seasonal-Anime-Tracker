@@ -1,6 +1,6 @@
 # Seasonal-Anime-Tracker
-AnimeUp - Your Source for Upcoming Anime
-AnimeUp is a web application built using Python, Django, HTML, and CSS that provides information about upcoming anime releases. It utilizes the Kitsu API to fetch and display the latest and most anticipated anime series.
+Shorai - Your Source for Upcoming Anime
+Shorai is a web application built using Python, Django, HTML, and CSS that provides information about upcoming anime releases. It utilizes the Kitsu API to fetch and display the latest and most anticipated anime series.
 # Table of Contents
 - Features
 - Prerequisites
@@ -21,6 +21,7 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.x installed on your system.
 - Pip (Python package manager) installed.
 - Django 3.x installed globally or within a virtual environment.
+- Requests installed globally or within a virtual environment.
 - An active internet connection to fetch data from the Kitsu API.
 
 ## Installation
